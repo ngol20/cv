@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Contacts</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+
+    <body>
+        <h3>My Contacts</h3>
+        <p>Phone: tel:+123456789</p>
+        <p>Email: mailto:contacts.me@example.com</p>
+        <p>LinkIn</p>
+        
+        <hr>
+
+        <form action="mailto:helloworld@gmail.com" method="post" enctype="text/plain"> <!-- Add form. Action: "mailto:" - for email. Method="post" get whatever the user input. Enctype=text/plain for plain text-->
+            <label for="">Your Name</label>
+            <input type="text" name="yourName"><br>
+            <label for="">Your Email:</label>
+            <input type="email" name="yourEmail"><br>
+            <label for="">Your Message:</label><br>
+            <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+            <input type="Submit" name="">
+        </form>
+    </body>
+</html>
